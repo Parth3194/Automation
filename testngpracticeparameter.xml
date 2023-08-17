@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+<parameter name = "url"                           value ="https://tutorialsninja.com/demo/" />
+<parameter name ="fn"                             value ="Parth"/>
+<parameter name ="ln"                             value ="Chauhan"/>
+<parameter name="email"                           value="psinh@gmail.com"/>
+<parameter name="telephone"                       value="1234567"/>
+<parameter name="password"                        value="Parth@3194"/>
+<parameter name="confirmpassword"                 value="Parth@3194"/>
+<classes>
+<class name="com.test.practice.RegisterProcess4"/>
+</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Practice]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Register(failed)">
+    <classes>
+      <class name="com.test.practice.RegisterProcess3">
+        <methods>
+          <include name="Register2" invocation-numbers="0"/>
+          <include name="Register1" invocation-numbers="0"/>
+          <include name="Login"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.test.practice.RegisterProcess3 -->
+      <class name="com.test.practice.RegisterProcess2">
+        <methods>
+          <include name="Register1" invocation-numbers="0"/>
+          <include name="Register2" invocation-numbers="0"/>
+          <include name="Login"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.test.practice.RegisterProcess2 -->
+      <class name="com.test.practice.RegisterProcess1">
+        <methods>
+          <include name="Register1" invocation-numbers="0"/>
+          <include name="Login"/>
+          <include name="Register2" invocation-numbers="0"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.test.practice.RegisterProcess1 -->
+    </classes>
+  </test> <!-- Register(failed) -->
+</suite> <!-- Failed suite [Practice] -->
