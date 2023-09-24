@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.practice.RegisterProcess4">
+      <class name="com.package3.suiterun.RediffTC">
         <methods>
-          <include name="Register1"/>
           <include name="teardown"/>
-          <include name="Login"/>
+          <include name="LaunchURL"/>
+          <include name="Login1" invocation-numbers="0"/>
+          <include name="Login2"/>
         </methods>
-      </class> <!-- com.test.practice.RegisterProcess4 -->
+      </class> <!-- com.package3.suiterun.RediffTC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name = "TliNg.Listeners"/>
+</listeners>
+  <test name="Test">
+    <classes>
+      <class name="com.TNGpractice.Li.MultipleTC"/>
+      <class name="com.TNGpractice.Li.LoginTC"/>
+      <class name="com.TNGpractice.Li.RediffTC"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+ 
